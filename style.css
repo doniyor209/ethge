@@ -1,0 +1,67 @@
+.card{
+    width: 325px;
+    height: 450px;
+    background-color: rgb(189, 189, 189);
+    text-align: center;
+}
+.card img{
+    width: 60%;
+}
+
+input{
+    width: 200px;
+    height: 50px;
+}
+select{
+    width: 200px;
+    height: 50px;
+}
+
+
+.cards-ota{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+
+img{
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#loading {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 250px;
+    border-radius: 50%;
+    border-top: 20px solid red;
+    border-left: 20px solid blue;
+    border-right: 20px solid blue;
+    border-bottom: 20px solid blue;
+    animation: rotate 2s linear infinite;
+    display: none;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
